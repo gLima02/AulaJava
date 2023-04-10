@@ -1,2 +1,2 @@
 # AulaJava
-códigos feitos em aula
+Repositório para guardar exercícios feitos em aula na disciplina de Programação Java Orientada a Objeto.
