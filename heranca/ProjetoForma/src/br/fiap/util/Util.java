@@ -47,7 +47,7 @@ public class Util {
 		String aux = "";
 		Cilindro cilindro;
 		for (int i = 0; i < index; i++) {
-			if(forma[i] instanceof Cilindro) {
+			if(forma[i] instanceof Volume) {
 				cilindro = (Cilindro) forma[i];
 				aux += "Cilindro volume = " + cilindro.calcularVolume() + "\n";
 			}
@@ -76,7 +76,7 @@ public class Util {
 		String aux = "";
 		String classe = "";
 		for (int i = 0; i < index; i++) {
-			if(forma[i] instanceof Volume) {
+			if(forma[i] instanceof Cilindro) {
 				classe = "Cilindro";
 			}else {
 				classe = "Circulo";
